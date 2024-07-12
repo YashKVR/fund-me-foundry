@@ -64,3 +64,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### Mock Testing
+```
+source .env
+forge test --fork-url $SEPOLIA_RPC_URL
+``
